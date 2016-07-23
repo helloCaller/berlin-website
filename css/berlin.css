@@ -1,0 +1,88 @@
+
+/*Global styling*/
+
+.hidden-section-heading, .skip-button {
+    position: absolute;
+    text-indent: -9000px;
+}
+
+a:focus {
+    outline: blue solid 2px;
+}
+
+
+#page{
+    position:fixed;
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    left:0;
+    top:0;
+    
+    
+    background: url('../img/launchBG.jpg');
+    background-size: cover;
+}
+.overlay {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.7); /*can be anything, of course*/
+}
+
+@font-face {
+    font-family: avenirBold;
+    src: url('../font/AvenirNextLTPro-Bold.otf');
+}
+
+
+/*----NAVBAR------*/
+
+nav>p{
+    padding-top: 1.2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: white;
+    font-family: avenirBold;
+    font-size: 1.5em;
+    
+}
+
+.navbar{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border:none;
+    min-height: 0;
+}
+
+
+/*----------BODY---------*/
+
+
+.custom-border{ 
+        border:0.15em;
+        border-style:solid;
+        border-image:url('../img/border.png') 23 stretch;
+}
+#body-content{
+    height:100%;
+   
+     color: white;
+    font-family: avenirBold;
+}
+#instructions{
+    padding-bottom: 10%;
+}
+
+
+
+
+
+
+
+ 
